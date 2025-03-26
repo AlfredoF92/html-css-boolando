@@ -99,10 +99,25 @@ img{
 .info .prezzo{
     font-size: 13px;
     font-weight: 600;
+    color: red; 
 }
 
 .info .prezzo-sconto{
     font-size: 14px;
     text-decoration: line-through;
+}
+
+/*hover img*/
+.img-principale{
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+    opacity: 1;
+}
+
+.img-principale:hover{
+    opacity: 0.1;
 
 }
